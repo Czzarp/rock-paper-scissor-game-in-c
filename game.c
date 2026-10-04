@@ -66,14 +66,14 @@ int main()
     {
         if(bot==0)
         {
-            printf("Bot lose");
+            printf("Bot won");
         }
         else if(bot==1)
         {
             printf("Its a draw");
         }
         else{
-            printf("Bot won");
+            printf("Bot lose");
         }
     }
     else if(ch=='p')
@@ -84,21 +84,21 @@ int main()
         }
         else if(bot==1)
         {
-            printf("Bot won");
+            printf("Bot lose");
         }
         else{
-            printf("Bot lose");
+            printf("Bot won");
         }
     }
     else if(ch=='s')
     {
         if(bot==0)
         {
-            printf("Bot won");
+            printf("Bot lose");
         }
         else if(bot==1)
         {
-            printf("Bot lose");
+            printf("Bot won");
         }
         else{
             printf("Its a draw");
