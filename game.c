@@ -5,7 +5,22 @@ int main()
     int bot;
     printf("Enter r for rock,p for paper and s for sicssor= ");
     scanf("%c",&ch);
-    printf("You choose %c\n",ch);
+    if(ch=='r')
+    {
+        printf("You choose rock");
+    }
+    else if(ch=='p')
+    {
+        printf("You choose paper");
+    }
+    else if(ch=="s")
+    {
+        printf("You choose scissor");
+    }
+    else
+    {
+        printf("Invalid letter");
+    }
     srand(time(NULL));
     bot = rand() % 3;
     switch (bot)
